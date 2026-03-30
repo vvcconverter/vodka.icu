@@ -1,6 +1,6 @@
 function loadRunScript() {
     let s = document.createElement("script");
-    s.src = "../assets/js/vodka-casino.js";
+    s.src = "vodka-casino.js";
     s.onload = function() {
         executeRun();
     };
@@ -30,4 +30,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
